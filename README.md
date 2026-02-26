@@ -6,39 +6,30 @@ The purpose of this project is to demonstrate my ability to work with structured
 While working on this project, I focused on data integrity, validation, and ensuring that the API is user-friendly and extensible for future enhancements.
 
 Project Structure
-recipe_api_securin
-│
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── example
-│   │   │           └── demo
-│   │   │               │
-│   │   │               ├── RecipeApiSecuringApplication.java
-│   │   │               │
-│   │   │               ├── controller
-│   │   │               │     └── RecipeController.java
-│   │   │               │
-│   │   │               ├── model
-│   │   │               │     └── RecipeModel.java
-│   │   │               │
-│   │   │               ├── repository
-│   │   │               │     └── RecipeRepository.java
-│   │   │               │
-│   │   │               └── service
-│   │   │                     └── RecipeService.java
-│   │   │
-│   │   └── resources
-│   │         ├── application.properties
-│   │         ├── static
-│   │         └── templates
-│   │
-│   └── test
-│       └── java
-│
-└── JRE System Library (JavaSE-17)
-└── pom.xml                       # Maven dependencies
+## Project Structure
+
+recipe_api_securin/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/demo/
+│   │   │       ├── RecipeApiSecuringApplication.java
+│   │   │       ├── controller/
+│   │   │       │   └── RecipeController.java
+│   │   │       ├── model/
+│   │   │       │   └── RecipeModel.java
+│   │   │       ├── repository/
+│   │   │       │   └── RecipeRepository.java
+│   │   │       └── service/
+│   │   │           └── RecipeService.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       ├── static/
+│   │       └── templates/
+│   └── test/
+│       └── java/
+├── JRE System Library (JavaSE-17)
+└── pom.xml
 **Thought Process and Approach**
 Step 1: Understanding the JSON Data
 
