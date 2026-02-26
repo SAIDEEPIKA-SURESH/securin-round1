@@ -133,7 +133,7 @@ The API is extendable: it can later support search by cuisine, filtering, pagina
 
 **Clone the repository:**
 
-git clone https://github.com/yourusername/recipe-api.git
+git clone 
 cd recipe-api
 
 Create database and run schema.sql.
