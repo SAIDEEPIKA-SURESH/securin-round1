@@ -8,28 +8,8 @@ While working on this project, I focused on data integrity, validation, and ensu
 Project Structure
 ## Project Structure
 
-recipe_api_securin/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/example/demo/
-│   │   │       ├── RecipeApiSecuringApplication.java
-│   │   │       ├── controller/
-│   │   │       │   └── RecipeController.java
-│   │   │       ├── model/
-│   │   │       │   └── RecipeModel.java
-│   │   │       ├── repository/
-│   │   │       │   └── RecipeRepository.java
-│   │   │       └── service/
-│   │   │           └── RecipeService.java
-│   │   └── resources/
-│   │       ├── application.properties
-│   │       ├── static/
-│   │       └── templates/
-│   └── test/
-│       └── java/
-├── JRE System Library (JavaSE-17)
-└── pom.xml
+<img width="501" height="352" alt="image" src="https://github.com/user-attachments/assets/cd64a339-ab3d-48dd-bb34-8d3c67763066" />
+
 **Thought Process and Approach**
 Step 1: Understanding the JSON Data
 
